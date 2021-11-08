@@ -1,0 +1,384 @@
+Unity Editor version:    2020.3.18f1 (a7d1c678663c)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.0 (Build 21A5552a)
+Darwin version:          21.1.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        8192 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/ebmpapst/Downloads/Azure
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53609
+Successfully changed project path to: /Users/ebmpapst/Downloads/Azure
+/Users/ebmpapst/Downloads/Azure
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 122.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.18f1 (a7d1c678663c)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/ebmpapst/Downloads/Azure/Assets
+GfxDevice: creating device client; threaded=0
+2021-11-08 12:58:32.654 Unity[17174:7698154] (null) preferred device: Apple M1 (high power)
+2021-11-08 12:58:32.654 Unity[17174:7698154] Metal devices available: 1
+2021-11-08 12:58:32.654 Unity[17174:7698154] 0: Apple M1 (high power)
+2021-11-08 12:58:32.654 Unity[17174:7698154] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56174
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.18f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001601 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 75.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.281 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3281ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (960ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (207ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (545ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (76ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (273ms)
+				ProcessInitializeOnLoadMethodAttributes (108ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005769 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 63.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/Frameworks/Mono/lib/libUnityOpenXR
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/Frameworks/Mono/lib/libUnityOpenXR.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/Frameworks/Mono/lib/libUnityOpenXR.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/Frameworks/Mono/lib/libUnityOpenXR.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/Frameworks/Mono/lib/UnityOpenXR
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/Frameworks/Mono/lib/libUnityOpenXR
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/Frameworks/Mono/lib/libUnityOpenXR.dylib
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/Frameworks/Mono/lib/libUnityOpenXR.so
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/Frameworks/Mono/lib/libUnityOpenXR.bundle
+Fallback handler could not load library /Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/Frameworks/Mono/lib/libUnityOpenXR
+Mono: successfully reloaded assembly
+- Completed reload, in  4.333 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4336ms)
+		BeginReloadAssembly (279ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (30ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (3949ms)
+			LoadAssemblies (246ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (417ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (111ms)
+			SetupLoadedEditorAssemblies (2836ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (64ms)
+				BeforeProcessingInitializeOnLoad (496ms)
+				ProcessInitializeOnLoadAttributes (1693ms)
+				ProcessInitializeOnLoadMethodAttributes (569ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (35ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.001771 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.027381 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.42 seconds
+Initializing Unity extensions:
+2021-11-08 12:58:43.282 Unity[17174:7698154] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000280a7d0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2021-11-08 12:58:43.289 Unity[17174:7698154] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000028295e0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3602 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 304.6 MB.
+System memory in use after: 303.3 MB.
+
+Unloading 902 unused Assets to reduce memory usage. Loaded Objects now: 4005.
+Total: 4.829125 ms (FindLiveObjects: 0.659250 ms CreateObjectMapping: 0.107875 ms MarkObjects: 3.132000 ms  DeleteObjects: 0.929000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/AzureSpatialAnchors.Examples/Scenes/AzureSpatialAnchorsLocalSharedDemo.unity
+  artifactKey: Guid(f540d2472b41fdb4bb6a7f47521b0bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AzureSpatialAnchors.Examples/Scenes/AzureSpatialAnchorsLocalSharedDemo.unity using Guid(f540d2472b41fdb4bb6a7f47521b0bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87fffe5401eeae96b6706078fe9ffb77') in 0.023399 seconds 
+  Import took 0.028129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001851 seconds.
+  path: Assets/AzureSpatialAnchors.Examples/Scenes/AzureSpatialAnchorsCoarseRelocDemo.unity
+  artifactKey: Guid(215a1784376860644a66e82f3d383b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AzureSpatialAnchors.Examples/Scenes/AzureSpatialAnchorsCoarseRelocDemo.unity using Guid(215a1784376860644a66e82f3d383b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb7c399b42875f792dfab7353c61cdc7') in 0.001004 seconds 
+  Import took 0.004642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/AzureSpatialAnchors.Examples/Scenes/AzureSpatialAnchorsNearbyDemo.unity
+  artifactKey: Guid(2e7fd4a208fcf48419d312fcf7b9553e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AzureSpatialAnchors.Examples/Scenes/AzureSpatialAnchorsNearbyDemo.unity using Guid(2e7fd4a208fcf48419d312fcf7b9553e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5d427d7affa7aad7089a4694e90f925') in 0.000981 seconds 
+  Import took 0.005429 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 13.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 228.2 MB.
+System memory in use after: 228.5 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 4005.
+Total: 19.344917 ms (FindLiveObjects: 0.460583 ms CreateObjectMapping: 0.086875 ms MarkObjects: 18.556250 ms  DeleteObjects: 0.240125 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 14.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 228.3 MB.
+System memory in use after: 228.5 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 4005.
+Total: 38.501208 ms (FindLiveObjects: 0.725459 ms CreateObjectMapping: 0.091958 ms MarkObjects: 37.448833 ms  DeleteObjects: 0.232041 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 668.453870 seconds.
+  path: Assets/AzureSpatialAnchors.Examples/Scenes/AzureSpatialAnchorsNearbyDemo.unity
+  artifactKey: Guid(2e7fd4a208fcf48419d312fcf7b9553e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AzureSpatialAnchors.Examples/Scenes/AzureSpatialAnchorsNearbyDemo.unity using Guid(2e7fd4a208fcf48419d312fcf7b9553e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7a7b07a3842abc151f01add4d110e99') in 0.106226 seconds 
+  Import took 0.206862 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 19.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 228.3 MB.
+System memory in use after: 228.5 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 4005.
+Total: 48.887500 ms (FindLiveObjects: 0.672083 ms CreateObjectMapping: 0.087959 ms MarkObjects: 47.528000 ms  DeleteObjects: 0.597000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 625.174307 seconds.
+  path: Assets/AzureSpatialAnchors.Examples/Scenes/AzureSpatialAnchorsNearbyDemo.unity
+  artifactKey: Guid(2e7fd4a208fcf48419d312fcf7b9553e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AzureSpatialAnchors.Examples/Scenes/AzureSpatialAnchorsNearbyDemo.unity using Guid(2e7fd4a208fcf48419d312fcf7b9553e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28967b147f348cd8353815e371ebb33d') in 0.023109 seconds 
+  Import took 0.089694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.133276 seconds.
+  path: Assets/AzureSpatialAnchors.Examples/Scenes/AzureSpatialAnchorsLocalSharedDemo.unity
+  artifactKey: Guid(f540d2472b41fdb4bb6a7f47521b0bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AzureSpatialAnchors.Examples/Scenes/AzureSpatialAnchorsLocalSharedDemo.unity using Guid(f540d2472b41fdb4bb6a7f47521b0bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573f4fb933ca97cfc104c1373856f377') in 0.020022 seconds 
+  Import took 0.050569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 113.492556 seconds.
+  path: Assets/AzureSpatialAnchors.Examples/Scenes/AzureSpatialAnchorsLocalSharedDemo.unity
+  artifactKey: Guid(f540d2472b41fdb4bb6a7f47521b0bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AzureSpatialAnchors.Examples/Scenes/AzureSpatialAnchorsLocalSharedDemo.unity using Guid(f540d2472b41fdb4bb6a7f47521b0bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99ca4a8b29337f99154faa03d41062fc') in 0.011018 seconds 
+  Import took 0.035007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.652321 seconds.
+  path: Assets/AzureSpatialAnchors.Examples/Scenes/AzureSpatialAnchorsLocalSharedDemo.unity
+  artifactKey: Guid(f540d2472b41fdb4bb6a7f47521b0bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AzureSpatialAnchors.Examples/Scenes/AzureSpatialAnchorsLocalSharedDemo.unity using Guid(f540d2472b41fdb4bb6a7f47521b0bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea73a2fcf7e4cc8de554e6d95ed825bd') in 0.013450 seconds 
+  Import took 0.052300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.932403 seconds.
+  path: Assets/AzureSpatialAnchors.Examples/Scenes/AzureSpatialAnchorsLocalSharedDemo.unity
+  artifactKey: Guid(f540d2472b41fdb4bb6a7f47521b0bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AzureSpatialAnchors.Examples/Scenes/AzureSpatialAnchorsLocalSharedDemo.unity using Guid(f540d2472b41fdb4bb6a7f47521b0bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c7480db23b1ad1aaeb598b2edd1b6ba') in 0.007844 seconds 
+  Import took 0.046743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.662408 seconds.
+  path: Assets/AzureSpatialAnchors.Examples/Scenes/AzureSpatialAnchorsLocalSharedDemo.unity
+  artifactKey: Guid(f540d2472b41fdb4bb6a7f47521b0bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AzureSpatialAnchors.Examples/Scenes/AzureSpatialAnchorsLocalSharedDemo.unity using Guid(f540d2472b41fdb4bb6a7f47521b0bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc821fb14c03c45359b3e4e5c89b33fb') in 0.004753 seconds 
+  Import took 0.032155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.358204 seconds.
+  path: Assets/AzureSpatialAnchors.Examples/Scenes/AzureSpatialAnchorsLocalSharedDemo.unity
+  artifactKey: Guid(f540d2472b41fdb4bb6a7f47521b0bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AzureSpatialAnchors.Examples/Scenes/AzureSpatialAnchorsLocalSharedDemo.unity using Guid(f540d2472b41fdb4bb6a7f47521b0bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6298e147bf2ed7d8b8538b16af1a60a7') in 0.008876 seconds 
+  Import took 0.035862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.494249 seconds.
+  path: Assets/AzureSpatialAnchors.Examples/Scenes/AzureSpatialAnchorsBasicDemo.unity
+  artifactKey: Guid(8eb951603c1152c4e920887a18cc2733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AzureSpatialAnchors.Examples/Scenes/AzureSpatialAnchorsBasicDemo.unity using Guid(8eb951603c1152c4e920887a18cc2733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7c1d9031ad20ddb1b8199d4a351e25e') in 0.005111 seconds 
+  Import took 0.028142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.145425 seconds.
+  path: Assets/AzureSpatialAnchors.Examples/Scenes/AzureSpatialAnchorsCoarseRelocDemo.unity
+  artifactKey: Guid(215a1784376860644a66e82f3d383b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AzureSpatialAnchors.Examples/Scenes/AzureSpatialAnchorsCoarseRelocDemo.unity using Guid(215a1784376860644a66e82f3d383b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5028936a4d03eaaa07a7855db870eaac') in 0.012711 seconds 
+  Import took 0.035535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.705393 seconds.
+  path: Assets/AzureSpatialAnchors.Examples/Scenes/AzureSpatialAnchorsBasicDemo.unity
+  artifactKey: Guid(8eb951603c1152c4e920887a18cc2733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AzureSpatialAnchors.Examples/Scenes/AzureSpatialAnchorsBasicDemo.unity using Guid(8eb951603c1152c4e920887a18cc2733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da18b09a84a47494249999520c86d7e') in 0.007906 seconds 
+  Import took 0.030755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.296782 seconds.
+  path: Assets/AzureSpatialAnchors.Examples/Scenes/AzureSpatialAnchorsCoarseRelocDemo.unity
+  artifactKey: Guid(215a1784376860644a66e82f3d383b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AzureSpatialAnchors.Examples/Scenes/AzureSpatialAnchorsCoarseRelocDemo.unity using Guid(215a1784376860644a66e82f3d383b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41fd786deb0e06db6b8589c5f6ccb065') in 0.007203 seconds 
+  Import took 0.039842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 192.594824 seconds.
+  path: Assets/AzureSpatialAnchors.Examples/Scenes/AzureSpatialAnchorsDemoLauncher.unity
+  artifactKey: Guid(4dcd43f53c599f94a80fb2408d9a15ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AzureSpatialAnchors.Examples/Scenes/AzureSpatialAnchorsDemoLauncher.unity using Guid(4dcd43f53c599f94a80fb2408d9a15ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f30dc4ac2f0fa410d5df06bdc86bf16e') in 0.006582 seconds 
+  Import took 0.026806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 119.688358 seconds.
+  path: Assets/AzureSpatialAnchors.Examples/Scenes/AzureSpatialAnchorsDemoLauncher.unity
+  artifactKey: Guid(4dcd43f53c599f94a80fb2408d9a15ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AzureSpatialAnchors.Examples/Scenes/AzureSpatialAnchorsDemoLauncher.unity using Guid(4dcd43f53c599f94a80fb2408d9a15ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e2636706cd624f277d1fb4d48403311') in 0.012328 seconds 
+  Import took 0.039753 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 228.4 MB.
+System memory in use after: 228.6 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 4005.
+Total: 35.829375 ms (FindLiveObjects: 0.521791 ms CreateObjectMapping: 0.087500 ms MarkObjects: 34.888917 ms  DeleteObjects: 0.328500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

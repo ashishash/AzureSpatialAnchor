@@ -1,0 +1,205 @@
+{
+  "Nodes": [
+    {
+      "Annotation": "all_tundra_nodes",
+      "Action": "",
+      "Inputs": [],
+      "Outputs": [],
+      "TargetDirectories": [],
+      "PassIndex": 0,
+      "ToBuildDependencies": [
+        1,
+        2,
+        3
+      ],
+      "ToUseDependencies": [],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 0
+    },
+    {
+      "Annotation": "Il2Cpp /Users/ebmpapst/Downloads/Azure/Library/Il2cppBuildCache/iOS/il2cppOutput/Data/Metadata/global-metadata.dat",
+      "Action": "\"/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/il2cpp/build/deploy/netcoreapp3.1/il2cpp\" --convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=\"unityaot\" --additional-cpp=\"/Users/ebmpapst/Downloads/Azure/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp\" --additional-cpp=\"/Users/ebmpapst/Downloads/Azure/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp\" --incremental-g-c-time-slice=3 --avoid-dynamic-library-copy --profiler-report --map-file-parser=\"/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/Tools/MapFileParser/MapFileParser\" --directory=\"/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed\" --generatedcppdir=\"/Users/ebmpapst/Downloads/Azure/Library/Il2cppBuildCache/iOS/il2cppOutput\"",
+      "Inputs": [
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/AzureSpatialAnchors.SDK.Core.Runtime.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/AzureSpatialAnchors.SDK.iOS.Runtime.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Async.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Providers.OpenXR.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Providers.UnityAR.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Providers.XRSDK.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.SDK.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Services.CameraSystem.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Services.InputAnimation.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Services.InputSimulation.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Services.InputSystem.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Services.SceneSystem.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Services.TeleportSystem.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/Mono.Security.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/System.Configuration.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/System.Core.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/System.Net.Http.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/System.Numerics.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/System.Xml.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/System.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/Unity.InputSystem.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/Unity.TextMeshPro.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/Unity.XR.ARFoundation.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/Unity.XR.ARKit.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/Unity.XR.ARSubsystems.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/Unity.XR.Management.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/Unity.XR.OpenXR.Features.MockDriver.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/Unity.XR.OpenXR.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/UnityEngine.ARModule.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/UnityEngine.AnimationModule.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/UnityEngine.AudioModule.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/UnityEngine.CoreModule.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/UnityEngine.GameCenterModule.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/UnityEngine.GridModule.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/UnityEngine.IMGUIModule.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/UnityEngine.InputLegacyModule.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/UnityEngine.InputModule.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/UnityEngine.JSONSerializeModule.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/UnityEngine.ParticleSystemModule.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/UnityEngine.Physics2DModule.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/UnityEngine.PhysicsModule.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/UnityEngine.SharedInternalsModule.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/UnityEngine.SpatialTracking.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/UnityEngine.SpriteShapeModule.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/UnityEngine.SubsystemsModule.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/UnityEngine.TextCoreModule.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/UnityEngine.TextRenderingModule.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/UnityEngine.TilemapModule.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/UnityEngine.UI.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/UnityEngine.UIModule.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/UnityEngine.UnityWebRequestModule.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/UnityEngine.VRModule.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/UnityEngine.XRModule.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/UnityEngine.dll",
+        "/Users/ebmpapst/Downloads/Azure/Temp/StagingArea/Data/Managed/mscorlib.dll",
+        "\"/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/il2cpp/build/deploy/netcoreapp3.1/il2cpp\""
+      ],
+      "Outputs": [
+        "/Users/ebmpapst/Downloads/Azure/Library/Il2cppBuildCache/iOS/il2cppOutput/Data/Metadata/global-metadata.dat"
+      ],
+      "TargetDirectories": [],
+      "PassIndex": 0,
+      "ToBuildDependencies": [],
+      "ToUseDependencies": [],
+      "OverwriteOutputs": false,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 1
+    },
+    {
+      "Annotation": "Copy Additional C++ File /Users/ebmpapst/Downloads/Azure/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp",
+      "Action": "TMPFILE=$(mktemp \"/Users/ebmpapst/Downloads/Azure/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp.tmpXXXXX\") && cp -af \"/Users/ebmpapst/Downloads/Azure/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp\" \"${TMPFILE}\" && touch -h -c \"${TMPFILE}\" && mv -f \"${TMPFILE}\" \"/Users/ebmpapst/Downloads/Azure/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp\" ",
+      "Inputs": [
+        "/Users/ebmpapst/Downloads/Azure/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp"
+      ],
+      "Outputs": [
+        "/Users/ebmpapst/Downloads/Azure/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp"
+      ],
+      "TargetDirectories": [],
+      "PassIndex": 0,
+      "ToBuildDependencies": [
+        1
+      ],
+      "ToUseDependencies": [
+        1
+      ],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 2
+    },
+    {
+      "Annotation": "Copy Additional C++ File /Users/ebmpapst/Downloads/Azure/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp",
+      "Action": "TMPFILE=$(mktemp \"/Users/ebmpapst/Downloads/Azure/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp.tmpXXXXX\") && cp -af \"/Users/ebmpapst/Downloads/Azure/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp\" \"${TMPFILE}\" && touch -h -c \"${TMPFILE}\" && mv -f \"${TMPFILE}\" \"/Users/ebmpapst/Downloads/Azure/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp\" ",
+      "Inputs": [
+        "/Users/ebmpapst/Downloads/Azure/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp"
+      ],
+      "Outputs": [
+        "/Users/ebmpapst/Downloads/Azure/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp"
+      ],
+      "TargetDirectories": [],
+      "PassIndex": 0,
+      "ToBuildDependencies": [
+        1
+      ],
+      "ToUseDependencies": [
+        1
+      ],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 3
+    }
+  ],
+  "FileSignatures": [
+    {
+      "File": "../../../../../Library"
+    },
+    {
+      "File": "../../../Temp/StagingArea/Data/Managed"
+    },
+    {
+      "File": "artifacts/buildprogram/tundra_buildprogram.dag.json"
+    },
+    {
+      "File": "il2cpp_settings.json"
+    },
+    {
+      "File": "unitylinker_settings.json"
+    }
+  ],
+  "GlobSignatures": [
+    {
+      "Path": "../../../Temp/StagingArea/Data/Managed"
+    }
+  ],
+  "ContentDigestExtensions": [
+    ".rsp",
+    ".dll",
+    ".exe",
+    ".txt",
+    ".c",
+    ".cpp",
+    ".h",
+    ".cs",
+    ".hpp"
+  ],
+  "StructuredLogFileName": "artifacts/tundra.log.json",
+  "StateFileName": "artifacts/TundraBuildState.state",
+  "StateFileNameTmp": "artifacts/TundraBuildState.state.tmp",
+  "ScanCacheFileName": "artifacts/tundra.scancache",
+  "ScanCacheFileNameTmp": "artifacts/tundra.scancache.tmp",
+  "DigestCacheFileName": "artifacts/tundra.digestcache",
+  "DigestCacheFileNameTmp": "artifacts/tundra.digestcache.tmp",
+  "DirectoriesCausingImplicitDependencies": [],
+        "NamedNodes": {
+          "all_tundra_nodes": 0
+        }
+,  "DefaultNodes": [
+    0
+  ],
+  "SharedResources": [],
+  "Scanners": [],
+  "Identifier": "artifacts/tundra.dag.json",
+  "BuildTitle": "Bee",
+  "RelativePathToRoot": ".."
+}
